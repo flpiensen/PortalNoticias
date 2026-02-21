@@ -1,17 +1,33 @@
 header {
   display: flex;
   justify-content: space-between;
-  max-width: 1280px;
-  max-height: 72px;
-  margin-left: 32px;
+  align-items: center;
   margin-top: 26px;
 }
 
 #nav_menu {
   display: flex;
+  align-items: center;
+  margin-left: 32px;
+  gap: 8px;
+  color: var(--text-color-primary);
+  font-size: var(--heanding2);
+}
+
+#header_title {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-family);
+  font-size: var(--heanding2);
+  color: var(--brand-color-light);
+}
+
+#header_buscar {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
   gap: 8px;
   font-family: var(--font-family);
   font-size: var(--heanding2);
   color: var(--text-color-primary);
 }
-
