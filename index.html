@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
+  <head class="container">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta charset="UTF-8" />
@@ -13,30 +13,42 @@
     <link rel="stylesheet" href="style/index.css" />
   </head>
   <body>
-    <header>
-      <div>
-        <nav id="nav_menu">
+    <header class="container">
+      <nav id="primary" class="grid grid-flow-col">
+        <div>
           <img
             src="assets/icons/List.svg"
             width="20"
             height="20"
-            alt="Lista menu"
+            alt="icone lista menu"
           />
-          <h2>Menu</h2>
-        </nav>
-      </div>
-      <div id="header_title">
-        <h1>Tech News</h1>
-      </div>
-      <div id="header_buscar">
-        <h2>Buscar</h2>
-        <img
-          src="assets/icons/MagnifyingGlass.svg"
-          alt="icone de busca"
-          width="16.89"
-          height="16.9"
-        />
-      </div>
+          <strong>Menu</strong>
+        </div>
+
+        <div>
+          <img src="assets/Logo.png" alt="logo do portal de notícias" />
+        </div>
+
+        <div>
+          <strong>Buscar</strong>
+          <img
+            src="assets/icons/MagnifyingGlass.svg"
+            alt="icone de busca"
+            width="16.89"
+            height="16.9"
+          />
+        </div>
+      </nav>
+      <nav id="secondary" class="grid grid-flow-col">
+        <a href="#">Inteligência Artificial</a>
+        <a href="#">Blockchain</a>
+        <a href="#">Hologramas</a>
+        <a href="#">Internet</a>
+        <a href="#">Internet</a>
+        <a href="#">Vestíveis</a>
+        <a href="#">Realidade Aumentada</a>
+        <a href="#">Realidade Virtual</a>
+      </nav>
     </header>
   </body>
 </html>
