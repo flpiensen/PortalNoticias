@@ -32,8 +32,6 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color-primary);
   font: var(--text);
-  max-width: 1280px;
-  max-height: 72px;
 }
 
 a {
