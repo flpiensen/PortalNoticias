@@ -20,17 +20,31 @@
   --font-family: "Archivo", sans-serif;
 
   /* Text config */
-  --heanding1: 24px/135% ExtraBold;
-  --heanding2: 16px/140% ExtraBold;
-  --heanding3: 14px/140% ExtraBold;
-  --span: 14px/145% semiBold;
-  --paragraph: 14px/160% regular;
+  --h1: 800 24px/135% var(--font-family);
+  --h2: 800 16px/140% var(--font-family);
+  --h3: 800 14px/140% var(--font-family);
+  --text-span: 600 14px/145% var(--font-family);
+  --text: 400 16px/140% var(--font-family);
+  --text-sm: 400 14px/160% var(--font-family);
 }
 
 body {
   background-color: var(--bg-color);
   color: var(--text-color-primary);
-  font-family: var(--font-family);
+  font: var(--text);
   max-width: 1280px;
   max-height: 72px;
+}
+
+a {
+  color: indianred;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--brand-color-light);
+}
+
+h1, h2, h3 {
+  font: inherit;
 }
