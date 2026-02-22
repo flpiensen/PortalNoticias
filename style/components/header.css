@@ -1,0 +1,63 @@
+/* Aqui eu tentei sozinho */
+/* header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 26px;
+}
+
+#nav_menu {
+  display: flex;
+  align-items: center;
+  margin-left: 32px;
+  gap: 8px;
+  color: var(--text-color-primary);
+  font-size: var(--h2);
+}
+
+#header_title {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-family);
+  font-size: var(--h2);
+  color: var(--brand-color-light);
+}
+
+#header_buscar {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+  gap: 8px;
+  font-family: var(--font-family);
+  font-size: var(--h2);
+  color: var(--text-color-primary);
+} */
+
+/* Aqui é a maneira que o professor explicou */
+
+#primary {
+  padding-block: 20px;
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  /* dentro do proprio primery eu posso fazer um seletor dentro dele mesmo */
+  /* nesting css */
+  div:nth-child(2) {
+    margin-inline: auto;
+  }
+
+  div:nth-child(3) {
+    justify-self: end;
+  }
+}
+
+#secondary {
+  border: solid 1px var(--stroke-color);
+  border-inline: none;
+  padding-block: 14px;
+  justify-content: space-between;
+}
