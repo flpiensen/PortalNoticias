@@ -10,7 +10,7 @@
 
   /* Base color */
   --bg-color: #0f172a;
-  --stroke-color: #e2e8f0;
+  --stroke-color: #41556e96;
 
   /* Text color */
   --text-color-primary: #f1f5ff;
@@ -49,17 +49,16 @@ h3 {
   font: inherit;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   max-width: 1280px;
   padding-inline: 32px;
   margin-inline: auto;
 }
 
-/* Utility-first */
-.grid {
-  display: grid;
-}
-
-.grid-flow-col {
-  grid-auto-flow: column;
+main {
+  margin-top: 40px;
 }
