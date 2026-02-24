@@ -9,7 +9,6 @@
 
 .grid-cols-2 {
   grid-template-columns: 1fr 1fr;
-
 }
 
 .gap-16 {
@@ -31,4 +30,3 @@
 .text-sm {
   font: var(--text-sm);
 }
-
